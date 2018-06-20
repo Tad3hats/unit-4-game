@@ -1,0 +1,59 @@
+
+
+body {
+  height: 100%;
+  margin-left: 20px;
+}
+
+h1 {
+    width: 40%;
+    text-align: center;
+    height: 80px;
+    font: white;
+    background-color:chocolate;
+    margin: 10px;
+}
+
+.row2Left {
+    background-color: bisque;
+    width: 60%;
+    margin: 10px;
+}
+
+.row2Right {
+    background-color: blue;
+    /* width: 40%; */
+    margin: 10px;
+}
+
+#row3Left {
+    text-align: center;
+    width: 25%;
+    margin: 10px;
+    height: 150px;
+    background-color: green;
+}
+#row3Right {
+    width: 15%;
+    margin: 10px;
+    height: 150px;
+    background-color: aquamarine;
+}
+
+.crystal {
+    height: 120px;
+    width: 100px;
+}
+
+.row5 {
+    width: 40%;
+    background-color: aqua;
+}
+
+#row6 {
+    width: 40%;
+    height: 200px;
+    background-color: aqua;
+
+    
+}
