@@ -14,6 +14,8 @@ function renderCrystals() {
     $("#crystal-container".empty);
     //force this zeroed out score to display in the working count
     $("#row6").html(score);
+    //push the wins/losses record into the div for wins/losses
+    $("#slotforwinslosses").html("Wins: " + wins + "<br>" + " Losses: " + losses);
     //generate target score once --not in the for loop below it
     targetScore=Math.floor(Math.random() * (120 - 19 + 1)) + 19;
     console.log("target score: " + targetScore);
