@@ -6,9 +6,9 @@ var losses=0;
 var crystals = [
     "https://vignette.wikia.nocookie.net/marvel-contestofchampions/images/1/1c/2-Star_Crystal.png/revision/latest?cb=20150825213642",
     "https://www.sarahelizabethtodd.com/wp-content/uploads/2016/11/shutterstock_105784286.jpg",
-    "https://images-na.ssl-images-amazon.com/images/I/41DsAQVpPAL.jpg",
-    "http://media.beliefnet.com/~/media/photos/health/galleries/three-crystals-to-help-you-fight-depression/three_crystals_lepidolite.jpg"
-    ]
+    "http://media.beliefnet.com/~/media/photos/health/galleries/three-crystals-to-help-you-fight-depression/three_crystals_lepidolite.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/41DsAQVpPAL.jpg"    
+]
 
 function renderCrystals() {
     $("#crystal-container".empty);

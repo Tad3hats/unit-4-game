@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-    width: 50%;
+    width: 70%;
     text-align: center;
     height: 80px;
     font: white;
@@ -44,17 +44,22 @@ h1 {
     height: 150px;
 }
 
+#slotforrandomscore {
+    height: 100px;
+}
+
+
 .col-md-4 {
     text-align: center;
     margin: 10px;
-    height: 120px;
+    height: 100px;
     width: 30%;
     background-color: green;
 }
 
 .col-md-3 {
     margin: 10px;
-    height: 120px;
+    height: 100px;
     width: 30%;
     background-color: lightgreen;
 }
@@ -62,7 +67,8 @@ h1 {
 .crystal {
     /* width: 80%; */
     max-height: 120px;
-    max-width: 130px;
+    max-width: 160px;
+    padding-right: 10px;
 }
 
 .row5 {
