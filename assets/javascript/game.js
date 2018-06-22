@@ -12,11 +12,13 @@ var crystals = [
 
 function renderCrystals() {
     $("#crystal-container".empty);
+    //force this zeroed out score to display in the working count
+    $("#row6").html(score);
     //generate target score once --not in the for loop below it
     targetScore=Math.floor(Math.random() * (120 - 19 + 1)) + 19;
     console.log("target score: " + targetScore);
             //append the random number to the row3Left div
-            $("#slotforrandomscore").html("Here is your randomly assigned number: " + "<p>" + "<b>" + targetScore + "</b>");
+            $("#slotforrandomscore").html("Here is your randomly assigned target: " + "<p>" + "<b>" + targetScore + "</b>");
     }
 
     //generate random number for each crystal
